@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sony{
+    width: 1455px;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.sony img{
+    height: 30px;
+    width: 60px;
+    margin-right: 90px;
+}
+
+.barre{
+    width: 100%;
+    height: 20vh;
+    margin-top: 390px;
+}
+    
+.barre img{
+    margin: 10px;
+    box-shadow: 0px 5px 17px -7px rgba(0,00, green, blue);
+    cursor: pointer;
+    transition: transform 100ms ease-in; 
+}
+
+.barre img:hover{
+    transform: scale(1.07);
+}
+
+.tout{
+    width: 1455px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    position: fixed;
+}
+
+.logo img{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.nav{
+    width: 1416px;
+    height: 60px;
+    transform: translateX(-300px);
+}
+
+.nav ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 10px;
+    display: block;
+    margin-top: 20px;
+}
+
+.nav ul li .blocblanc{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10px;
+    padding:25px 15px;
+    display: flex;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.blocblanc{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.nav ul li a:hover{
+    color: #00439C;
+}
+
+.nav ul li:hover .blocblanc{
+    visibility: visible;
+}
+
+.col a img{
+    width: 90px;
+    height: 90px;  
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi{
+    height: 40px;
+    width: 90px;
+    background-color: brown;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.carroussel{
+    width: 1455px;
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.carroussel .car{
+width: 100%;
+height: 90vh;
+background-color: rgb(3, 218, 218);
+background-size: cover;
+background-repeat: no-repeat;
+animation: fondu 8s infinite ease-in-out;
+}
+
+.car:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{
+        background-image: url("./Images/days-of-play-listing-thumb-01-en-20may21\ [MConverter.eu].jpg");
+    }
+    20%{
+        background-image: url("./Images/fifa-22-ps-plus-igc-keyart-01-ps4-ps5-en-14apr22\ [MConverter.eu].jpg");
+    }
+    60%{
+        background-image: url("./Images/GranTourismo.webp");
+    }
+    80%{
+        background-image: url("./Images/horizon-forbidden-west.jpg");
+    }
+    100%{
+        background-image: url("./Images/oxenfree-ii-lost-signals-store-art-01-ps4-03dec21$en.webp");
+    }
+}
+
+.barre{
+    width: 70%;
+    height: 200px;
+    margin-left: 200px;
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+}
+
+.oh{
+    background-color:#00439C;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    height: 35px;
+    width: 120px;
+}
+
+.eh{
+    background-color:#00439C;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    height: 35px;
+    width: 180px; 
+}
+
+.text{
+    display:inline-block ;
+    margin-left: 220px;
+    justify-content: center;
+    align-items: center;  
+}
+
+h4{
+    font-size: 50px;
+}
+
+h6{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.container4 img{
+    margin: 10px;
+    box-shadow: 0px 5px 17px -7px rgba(0,00, green, blue);
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.container4 img:hover{
+    transform: scale(1.07);
+}
+
+.container5{
+    width: 1455px;
+    height: 430px;
+    background-image: url("./Images/snipper.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.boxes img{
+    margin-left: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 0px 5px 17px -7px rgba(0,00, green, blue);
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.boxes img:hover{
+    transform: scale(1.07);
+    opacity: none;
+    border:solid red 3px;
+}
+
+.container6{
+    width: 1455px;
+    height: 550px;
+    background-image: url("./Images/Eden.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container7{
+    height: 1150px;
+    background-color: black;
+    padding: 30px;
+}
+
+.scroll{
+    width: 1200px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.jeux {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jeux2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.jeux3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.container8{
+    width: 1245px;
+    height: 100vh;
+    padding: 40px;
+}
+
+.container9{
+    width: 1455px;
+    height: 60vh;
+    background-color: aqua;
+    background-image: url("./Images/mbappé\ 2.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.sociaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
